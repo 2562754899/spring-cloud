@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" jdk="1.8" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: org.springframework.boot:spring-boot-devtools:2.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework.boot:spring-boot:2.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework:spring-core:5.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework:spring-jcl:5.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework:spring-context:5.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework:spring-aop:5.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework:spring-beans:5.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework:spring-expression:5.2.2.RELEASE" scope="RUNTIME"/>
+	<lib name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" scope="RUNTIME"/>
+	<levels>
+		<level name="Maven: org.springframework.boot:spring-boot-devtools:2.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot:2.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-core:5.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-jcl:5.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-context:5.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-aop:5.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-beans:5.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-expression:5.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE" value="project"/>
+		<level name="Maven: org.projectlombok:lombok:1.16.18" value="project"/>
+		<level name="Maven: cn.hutool:hutool-all:5.1.0" value="project"/>
+	</levels>
+</component>
