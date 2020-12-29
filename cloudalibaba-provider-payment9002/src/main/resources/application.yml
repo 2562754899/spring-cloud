@@ -7,10 +7,14 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.31.74:8848 #配置Nacos地址
-
+        server-addr: 172.16.17.164:80
+#        server-addr: 192.168.31.74:8848,192.168.31.74:8849,192.168.31.74:8850
+#        server-addr: 192.168.31.74:80#配置Nacos地址
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+  endpoint:
+    health:
+      show-details: always
